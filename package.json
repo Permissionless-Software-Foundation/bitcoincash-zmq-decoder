@@ -1,5 +1,5 @@
 {
-  "name": "bitcoincash-zmq-decoder",
+  "name": "@psf/bitcoincash-zmq-decoder",
   "version": "0.1.5",
   "description": "decode transaction and block hex strings returned from zmq",
   "main": "index.js",
