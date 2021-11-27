@@ -1,5 +1,5 @@
 {
-  "name": "bitcoincash-zmq-decoder",
+  "name": "@psf/bitcoincash-zmq-decoder",
   "version": "0.1.5",
   "description": "decode transaction and block hex strings returned from zmq",
   "main": "index.js",
@@ -7,21 +7,24 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "bitcoinjs-lib": "3.3.*"
+    "bitcoinjs-lib": "3.3.2"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Bitcoin-com/bitcoincash-zmq-decoder.git"
+    "url": "git+https://github.com/Permissionless-Software-Foundation/bitcoincash-zmq-decoder.git"
   },
   "keywords": [
     "bitcoin",
     "transaction",
     "rawtx"
   ],
-  "author": "Gabriel Cardona @ bitcoin.com",
+  "author": "Chris Troutner <chris.troutner@gmail.com>",
+  "contributors": [
+    "Gabriel Cardona"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Bitcoin-com/bitcoincash-zmq-decoder/issues"
+    "url": "https://github.com/Permissionless-Software-Foundation/bitcoincash-zmq-decoder/issues"
   },
-  "homepage": "https://github.com/Bitcoin-com/bitcoincash-zmq-decoder#readme"
+  "homepage": "https://github.com/Permissionless-Software-Foundation/bitcoincash-zmq-decoder#readme"
 }
